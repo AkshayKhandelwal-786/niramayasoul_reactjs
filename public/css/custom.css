@@ -1,0 +1,585 @@
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: bolder;
+
+}
+
+.success {
+    color: green;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.buttonCustom {
+    border-radius: 0.5rem;
+    background: var(--gradient, linear-gradient(228deg, #158942 0%, #00702B 88.37%));
+    box-shadow: 0px 4px 20px 0px rgba(21, 137, 66, 0.18);
+    text-align: center;
+    padding: 0.88rem 2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.buttonCustomAdd {
+  border-radius: 0.5rem;
+  background: var(--gradient, linear-gradient(228deg, #158942 0%, #00702B 88.37%));
+  box-shadow: 0px 4px 20px 0px rgba(21, 137, 66, 0.18);
+  text-align: center;
+  padding: 0.44rem 1rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 0px;
+}
+
+.divCustom {
+  border-radius: 0.5rem;
+  background: var(--gradient, linear-gradient(228deg, #158942 0%, #00702B 88.37%));
+  box-shadow: 0px 4px 20px 0px rgba(21, 137, 66, 0.18);
+  text-align: center;
+  padding: 0.7rem 0rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 112px;
+  height: 38.4px;
+
+}
+button.cart-btn {
+  display: flex;
+  /* padding: 0rem 3.90375rem 0rem 3.88938rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 0.5625rem;
+  border-radius: 0.375rem;
+  background: var(--main-color);
+  color: #FFF;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  
+}
+button.cart {
+  display: flex;
+  /* padding: 0rem 3.90375rem 0rem 3.88938rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 0.5625rem;
+  border-radius: 0.375rem;
+  background: var(--main-color);
+  color: #FFF;
+  text-align: center;
+  font-size: 0.865rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  
+}
+[attribute="disabled"]{
+background-color: #7bd19c;
+}
+.dropdown .labbtn {
+  color: #fff !important;
+  background-color: #00702B !important;
+}
+.dropdown .labbtn:hover {
+  color: #fff !important;
+  background-color: #00702B !important;
+}
+
+/* Overlay loader.css */
+
+
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of other content */
+    backdrop-filter: blur(5px); /* Apply blur effect to the background */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+  }
+  
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 24px;
+  -webkit-mask:
+    radial-gradient(circle closest-side,#000 94%,#0000) 0 0/25% 100%,
+    linear-gradient(#000 0 0) center/calc(100% - 12px) calc(100% - 12px) no-repeat;
+  background:
+   linear-gradient(#25b09b 0 0) 0/0% no-repeat
+   #ddd;
+  animation: l7 2s infinite linear;
+}
+@keyframes l7 {
+    100% {background-size:100%}
+}
+
+
+  .avatar {
+    vertical-align: middle;
+    max-width: 100px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+
+  .list-checkbox .form-check-input[type=radio] {
+    margin-inline-end: 0.75rem !important;
+    display: inline-block;
+    margin-block-start: 0px;
+}
+
+
+
+.empower {
+  background: linear-gradient(89deg, #3EB1B1 1.84%, rgba(62, 177, 177, 0.00) 71.67%), url(../img/empowhealth.png);
+  padding: 45px 40px;
+  min-height: 267px;
+  background-size: cover;
+  align-items: self-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.empower2 {
+  background: linear-gradient(89deg, #3EB1B1 1.84%, rgba(62, 177, 177, 0.00) 71.67%), url(../img/prephivprev.png);
+ 
+}
+.empower span {
+  padding-block-end: 12px !important;
+}
+
+
+
+/* prep and pep page */
+.btn-tab {
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  /*Increasedfontsize*/padding: 12px 30px;
+  /*Increasedpadding*/margin: 0 10px;
+  /*Adjustedmarginforbetterspacing*/cursor: pointer;
+  color: #555;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  /*Defaultborder*/border-radius: 5px;
+   /* Rounded corners */:;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn-tab:hover {
+  color: #00702B; /* Hover color */
+  background-color: #e6e6e6; /* Hover background */
+}
+
+.active-tab {
+  color: #fff; /* Active text color */
+  background-color: #00702B; /* Active background color */
+  border-bottom: none; /* Remove bottom border for active state */
+}
+
+
+/* Highlight the selected lab */
+.selected-lab {
+  background-color: #e7f3ff; /* Light blue background when selected */
+  border: 2px solid #00702B; /* Border color to match the selection */
+}
+
+.lab-item {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.lab-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Styling for the lab image */
+.lab-image {
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* Search bar styling */
+.search-bar input {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+
+.card-item {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.card-item .btn {
+  display: flex;
+  align-items: center;
+}
+.card-item .btn i {
+  margin-right: 5px;
+}
+
+
+/* my order list */
+.order-item {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.order-icon {
+  background-color: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.badge-ongoing {
+  background-color: #fce8b2;
+  color: #de8500;
+}
+
+.badge-completed {
+  background-color: #d3f9d3;
+  color: #28a745;
+}
+
+.badge-cancelled {
+  background-color: #fcdada;
+  color: #dc3545;
+}
+
+.order-list .order-item + .order-item {
+  margin-top: 15px;
+}
+
+
+/* doctor consult */
+/* Adds a border and padding to each consultation box */
+.consultation-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Align the select box to the right */
+.form-select {
+  max-width: 200px;
+}
+
+/* Custom button styling for Load More */
+.buttonCustom {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+/* order list */
+/* Adds a border and padding to each order box */
+.order-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Align the select box to the right */
+.form-select {
+  max-width: 200px;
+}
+
+/* Custom button styling for Load More */
+.buttonCustom {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Badge styles */
+.badge-completed {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.badge-ongoing {
+  background-color: #ffc107;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+
+/* lab test */
+
+/* Adds a border and padding to each lab test box */
+.lab-test-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Align the select box to the right */
+.form-select {
+  max-width: 200px;
+}
+
+/* Custom button styling for Load More */
+.buttonCustom {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+/* notification */
+/* Custom styles for unread notifications */
+.unread-notification {
+  border: 1px solid #28a745; /* Green border for unread notifications */
+  background-color: #e6ffe6; /* Light green background */
+  font-weight: bold; /* Bold text for unread notifications */
+}
+
+/* Image styling */
+.notification-image {
+  width: 60px;  /* Adjust the size as needed */
+  height: 60px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover;
+}
+
+/* Button styling */
+.mark-all-read-btn {
+  background-color: #28a745; /* Green background for the button */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mark-all-read-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for card text (default) */
+.card-text {
+  color: #555; /* Slightly darker color for readability */
+}
+
+/* Additional styling for read notifications */
+.read-notification {
+  border: 1px solid #ddd; /* Lighter border for read notifications */
+  background-color: #f9f9f9; /* Neutral background for read notifications */
+}
+
+
+/* add new addresss */
+/* Drawer styles */
+.drawer {
+  position: fixed;
+  right: -400px;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.drawer.open {
+  right: 0;
+}
+
+.drawer-content {
+  padding: 20px;
+}
+
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+
+/* order section */
+
+.order-box {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.order-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.badge-ongoing {
+  background-color: #fef4e5;
+  color: #f3af37;
+}
+
+.badge-completed {
+  background-color: #e5f9e5;
+  color: #30c44b;
+}
+
+.badge-cancelled {
+  background-color: #f9e5e5;
+  color: #f03a3a;
+}
+
+
+/* consult details */
+.consultation-details-section {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.consultation-details-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.section-subtitle {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.card {
+  border: none;
+}
+
+.doctor-card,
+.appointment-card,
+.patient-card,
+.price-card,
+.booking-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.doctor-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.doctor-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.doctor-speciality {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.doctor-location {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.doctor-rating {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #28a745;
+}
+
+.price-card p,
+.booking-card p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.total-pay {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #28a745;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+}
+
+.btn-block {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
+
+
